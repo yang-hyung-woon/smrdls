@@ -15,6 +15,7 @@ public class JsopTest {
 			Document doc = Jsoup.connect("https://www.yes24.com/24/Category/Display/001001025008").get();
 			String html = doc.html();
 			File dir = new File("D:/data/list");
+			System.out.println(dir);
 			
 		} catch (IOException e) {
 			e.printStackTrace();
